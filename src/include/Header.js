@@ -3,7 +3,9 @@ import React from "react";
 
 function Header(){
     return(
-<nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <>
+    
+    <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
         <a href="index.html" className="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <h1 className="m-0">Gardener</h1>
         </a>
@@ -31,6 +33,8 @@ function Header(){
             <a href="" className="btn btn-primary py-4 px-lg-4 rounded-0 d-none d-lg-block">Get A Quote<i className="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
+      
+            </>
 
 
     );
