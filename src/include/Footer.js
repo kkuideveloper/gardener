@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom"
 
 
 function Footer(){
@@ -15,27 +16,27 @@ function Footer(){
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="/"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="/"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="/"><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="/"><i class="fab fa-linkedin-in"></i></a>
+                        <Link class="btn btn-square btn-outline-light rounded-circle me-2" go="/"><i class="fab fa-twitter"></i></Link>
+                        <Link class="btn btn-square btn-outline-light rounded-circle me-2" go="/"><i class="fab fa-facebook-f"></i></Link>
+                        <Link class="btn btn-square btn-outline-light rounded-circle me-2" go="/"><i class="fab fa-youtube"></i></Link>
+                        <Link class="btn btn-square btn-outline-light rounded-circle me-2" go="/"><i class="fab fa-linkedin-in"></i></Link>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">Services</h4>
-                    <a class="btn btn-link" href="/">Landscaping</a>
-                    <a class="btn btn-link" href="/">Pruning plants</a>
-                    <a class="btn btn-link" href="/">Urban Gardening</a>
-                    <a class="btn btn-link" href="/">Garden Maintenance</a>
-                    <a class="btn btn-link" href="/">Green Technology</a>
+                    <Link class="btn btn-link" go="/">Landscaping</Link>
+                    <Link class="btn btn-link" go="/">Pruning plants</Link>
+                    <Link class="btn btn-link" go="/">Urban Gardening</Link>
+                    <Link class="btn btn-link" go="/">Garden Maintenance</Link>
+                    <Link class="btn btn-link" go="/">Green Technology</Link>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="/">About Us</a>
-                    <a class="btn btn-link" href="/">Contact Us</a>
-                    <a class="btn btn-link" href="/">Our Services</a>
-                    <a class="btn btn-link" href="/">Terms & Condition</a>
-                    <a class="btn btn-link" href="/">Support</a>
+                    <Link class="btn btn-link" go="/">About Us</Link>
+                    <Link class="btn btn-link" go="/">Contact Us</Link>
+                    <Link class="btn btn-link" go="/">Our Services</Link>
+                    <Link class="btn btn-link" go="/">Terms & Condition</Link>
+                    <Link class="btn btn-link" go="/">Support</Link>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">Newsletter</h4>

@@ -1,5 +1,6 @@
 
 import {React} from 'react';
+import {Link} from "react-router-dom";
 
 
 function Home(){
@@ -64,7 +65,7 @@ function Home(){
                 <p className="text-primary mb-4">Year of Experience</p>
                 <h1 className="display-5 mb-4">We Make Your Home Like A Garden</h1>
                 <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                <a href="/">Explore More</a>
+                <Link go="/">Explore More</Link>
                 
                
             </div>
@@ -120,7 +121,7 @@ function Home(){
                 <p className="fs-5 fw-bold text-primary">Why Choosing Us!</p>
                 <h1 className="display-5 mb-4">Few Reasons Why People Choosing Us!</h1>
                 <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                <a href="/" className="btn btn-primary py-3 px-4">Explore More</a>
+                <Link go="/" className="btn btn-primary py-3 px-4">Explore More</Link>
             </div>
             <div className="col-lg-6">
                 <div className="row g-4 align-items-center">
@@ -176,7 +177,7 @@ function Home(){
                         </div>
                         <h4 className="mb-3">Landscaping</h4>
                         <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                        <a className="btn btn-sm" href="/"><i className="fa fa-plus text-primary me-2"></i>Read More</a>
+                        <Link className="btn btn-sm" go="/"><i className="fa fa-plus text-primary me-2"></i>Read More</Link>
                     </div>
                 </div>
             </div>
@@ -191,7 +192,7 @@ function Home(){
                         </div>
                         <h4 className="mb-3">Pruning plants</h4>
                         <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                        <a className="btn btn-sm" href="/"><i className="fa fa-plus text-primary me-2"></i>Read More</a>
+                        <Link className="btn btn-sm" go="/"><i className="fa fa-plus text-primary me-2"></i>Read More</Link>
                     </div>
                 </div>
             </div>
@@ -206,7 +207,7 @@ function Home(){
                         </div>
                         <h4 className="mb-3">Irrigation & Drainage</h4>
                         <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                        <a className="btn btn-sm" href="/"><i className="fa fa-plus text-primary me-2"></i>Read More</a>
+                        <Link className="btn btn-sm" go="/"><i className="fa fa-plus text-primary me-2"></i>Read More</Link>
                     </div>
                 </div>
             </div>
@@ -221,7 +222,7 @@ function Home(){
                         </div>
                         <h4 className="mb-3">Garden Maintenance </h4>
                         <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                        <a className="btn btn-sm" href="/"><i className="fa fa-plus text-primary me-2"></i>Read More</a>
+                        <Link className="btn btn-sm" go="/"><i className="fa fa-plus text-primary me-2"></i>Read More</Link>
                     </div>
                 </div>
             </div>
@@ -236,7 +237,7 @@ function Home(){
                         </div>
                         <h4 className="mb-3">Green Technology</h4>
                         <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                        <a className="btn btn-sm" href="/"><i className="fa fa-plus text-primary me-2"></i>Read More</a>
+                        <Link className="btn btn-sm" go="/"><i className="fa fa-plus text-primary me-2"></i>Read More</Link>
                     </div>
                 </div>
             </div>
@@ -251,7 +252,7 @@ function Home(){
                         </div>
                         <h4 className="mb-3">Urban Gardening</h4>
                         <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                        <a className="btn btn-sm" href="/"><i className="fa fa-plus text-primary me-2"></i>Read More</a>
+                        <Link className="btn btn-sm" go="/"><i className="fa fa-plus text-primary me-2"></i>Read More</Link>
                     </div>
                 </div>
             </div>
@@ -269,31 +270,31 @@ function Home(){
                         <div className="col-sm-6">
                             <div className="form-floating">
                                 <input type="text" className="form-control bg-light border-0" id="gname" placeholder="Gurdian Name" />
-                                <label for="gname">Your Name</label>
+                                <label htmlFor="gname">Your Name</label>
                             </div>
                         </div>
                         <div className="col-sm-6">
                             <div className="form-floating">
                                 <input type="email" className="form-control bg-light border-0" id="gmail" placeholder="Gurdian Email" />
-                                <label for="gmail">Your Email</label>
+                                <label htmlFor="gmail">Your Email</label>
                             </div>
                         </div>
                         <div className="col-sm-6">
                             <div className="form-floating">
                                 <input type="text" className="form-control bg-light border-0" id="cname" placeholder="Child Name" />
-                                <label for="cname">Your Mobile</label>
+                                <label htmlFor="cname">Your Mobile</label>
                             </div>
                         </div>
                         <div className="col-sm-6">
                             <div className="form-floating">
                                 <input type="text" className="form-control bg-light border-0" id="cage" placeholder="Child Age" />
-                                <label for="cage">Service Type</label>
+                                <label htmlFor="cage">Service Type</label>
                             </div>
                         </div>
                         <div className="col-12">
                             <div className="form-floating">
                                 <textarea className="form-control bg-light border-0" placeholder="Leave a message here" id="message" style={{height: '100px'}}></textarea>
-                                <label for="message">Message</label>
+                                <label htmlFor="message">Message</label>
                             </div>
                         </div>
                         <div className="col-12 text-center">
@@ -328,8 +329,8 @@ function Home(){
                     <div className="portfolio-text">
                         <h4 className="text-white mb-4">Landscaping</h4>
                         <div className="d-flex">
-                            <a className="btn btn-lg-square rounded-circle mx-2" href="img/service-1.jpg" data-lightbox="portfolio"><i className="fa fa-eye"></i></a>
-                            <a className="btn btn-lg-square rounded-circle mx-2" href="/"><i className="fa fa-link"></i></a>
+                            <Link className="btn btn-lg-square rounded-circle mx-2" go="img/service-1.jpg" data-lightbox="portfolio"><i className="fa fa-eye"></i></Link>
+                            <Link className="btn btn-lg-square rounded-circle mx-2" go="/"><i className="fa fa-link"></i></Link>
                         </div>
                     </div>
                 </div>
@@ -340,8 +341,8 @@ function Home(){
                     <div className="portfolio-text">
                         <h4 className="text-white mb-4">Pruning plants</h4>
                         <div className="d-flex">
-                            <a className="btn btn-lg-square rounded-circle mx-2" href="img/service-2.jpg" data-lightbox="portfolio"><i className="fa fa-eye"></i></a>
-                            <a className="btn btn-lg-square rounded-circle mx-2" href="/"><i className="fa fa-link"></i></a>
+                            <Link className="btn btn-lg-square rounded-circle mx-2" go="img/service-2.jpg" data-lightbox="portfolio"><i className="fa fa-eye"></i></Link>
+                            <Link className="btn btn-lg-square rounded-circle mx-2" go="/"><i className="fa fa-link"></i></Link>
                         </div>
                     </div>
                 </div>
@@ -352,8 +353,8 @@ function Home(){
                     <div className="portfolio-text">
                         <h4 className="text-white mb-4">Irrigation & Drainage</h4>
                         <div className="d-flex">
-                            <a className="btn btn-lg-square rounded-circle mx-2" href="img/service-3.jpg" data-lightbox="portfolio"><i className="fa fa-eye"></i></a>
-                            <a className="btn btn-lg-square rounded-circle mx-2" href="/"><i className="fa fa-link"></i></a>
+                            <Link className="btn btn-lg-square rounded-circle mx-2" go="img/service-3.jpg" data-lightbox="portfolio"><i className="fa fa-eye"></i></Link>
+                            <Link className="btn btn-lg-square rounded-circle mx-2" go="/"><i className="fa fa-link"></i></Link>
                         </div>
                     </div>
                 </div>
@@ -364,8 +365,8 @@ function Home(){
                     <div className="portfolio-text">
                         <h4 className="text-white mb-4">Garden Maintenance</h4>
                         <div className="d-flex">
-                            <a className="btn btn-lg-square rounded-circle mx-2" href="img/service-4.jpg" data-lightbox="portfolio"><i className="fa fa-eye"></i></a>
-                            <a className="btn btn-lg-square rounded-circle mx-2" href="/"><i className="fa fa-link"></i></a>
+                            <Link className="btn btn-lg-square rounded-circle mx-2" go="img/service-4.jpg" data-lightbox="portfolio"><i className="fa fa-eye"></i></Link>
+                            <Link className="btn btn-lg-square rounded-circle mx-2" go="/"><i className="fa fa-link"></i></Link>
                         </div>
                     </div>
                 </div>
@@ -376,8 +377,8 @@ function Home(){
                     <div className="portfolio-text">
                         <h4 className="text-white mb-4">Green Technology</h4>
                         <div className="d-flex">
-                            <a className="btn btn-lg-square rounded-circle mx-2" href="img/service-5.jpg" data-lightbox="portfolio"><i className="fa fa-eye"></i></a>
-                            <a className="btn btn-lg-square rounded-circle mx-2" href="/"><i className="fa fa-link"></i></a>
+                            <Link className="btn btn-lg-square rounded-circle mx-2" go="img/service-5.jpg" data-lightbox="portfolio"><i className="fa fa-eye"></i></Link>
+                            <Link className="btn btn-lg-square rounded-circle mx-2" go="/"><i className="fa fa-link"></i></Link>
                         </div>
                     </div>
                 </div>
@@ -388,8 +389,8 @@ function Home(){
                     <div className="portfolio-text">
                         <h4 className="text-white mb-4">Urban Gardening</h4>
                         <div className="d-flex">
-                            <a className="btn btn-lg-square rounded-circle mx-2" href="./img/service-6.jpg" data-lightbox="portfolio"><i className="fa fa-eye"></i></a>
-                            <a className="btn btn-lg-square rounded-circle mx-2" href="/"><i className="fa fa-link"></i></a>
+                            <Link className="btn btn-lg-square rounded-circle mx-2" go="./img/service-6.jpg" data-lightbox="portfolio"><i className="fa fa-eye"></i></Link>
+                            <Link className="btn btn-lg-square rounded-circle mx-2" go="/"><i className="fa fa-link"></i></Link>
                         </div>
                     </div>
                 </div>
@@ -412,9 +413,9 @@ function Home(){
                         <h4 className="mb-0">Doris Jordan</h4>
                         <p className="text-primary">Landscape Designer</p>
                         <div className="team-social d-flex">
-                            <a className="btn btn-square rounded-circle me-2" href="/"><i className="fab fa-facebook-f"></i></a>
-                            <a className="btn btn-square rounded-circle me-2" href="/"><i className="fab fa-twitter"></i></a>
-                            <a className="btn btn-square rounded-circle me-2" href="/"><i className="fab fa-instagram"></i></a>
+                            <Link className="btn btn-square rounded-circle me-2" go="/"><i className="fab fa-facebook-f"></i></Link>
+                            <Link className="btn btn-square rounded-circle me-2" go="/"><i className="fab fa-twitter"></i></Link>
+                            <Link className="btn btn-square rounded-circle me-2" go="/"><i className="fab fa-instagram"></i></Link>
                         </div>
                     </div>
                 </div>
@@ -426,9 +427,9 @@ function Home(){
                         <h4 className="mb-0">Johnny Ramirez</h4>
                         <p className="text-primary">Garden Designer</p>
                         <div className="team-social d-flex">
-                            <a className="btn btn-square rounded-circle me-2" href="/"><i className="fab fa-facebook-f"></i></a>
-                            <a className="btn btn-square rounded-circle me-2" href="/"><i className="fab fa-twitter"></i></a>
-                            <a className="btn btn-square rounded-circle me-2" href="/"><i className="fab fa-instagram"></i></a>
+                            <Link className="btn btn-square rounded-circle me-2" go="/"><i className="fab fa-facebook-f"></i></Link>
+                            <Link className="btn btn-square rounded-circle me-2" go="/"><i className="fab fa-twitter"></i></Link>
+                            <Link className="btn btn-square rounded-circle me-2" go="/"><i className="fab fa-instagram"></i></Link>
                         </div>
                     </div>
                 </div>
@@ -440,9 +441,9 @@ function Home(){
                         <h4 className="mb-0">Diana Wagner</h4>
                         <p className="text-primary">Senior Gardener</p>
                         <div className="team-social d-flex">
-                            <a className="btn btn-square rounded-circle me-2" href="/"><i className="fab fa-facebook-f"></i></a>
-                            <a className="btn btn-square rounded-circle me-2" href="/"><i className="fab fa-twitter"></i></a>
-                            <a className="btn btn-square rounded-circle me-2" href="/"><i className="fab fa-instagram"></i></a>
+                            <Link className="btn btn-square rounded-circle me-2" go="/"><i className="fab fa-facebook-f"></i></Link>
+                            <Link className="btn btn-square rounded-circle me-2" go="/"><i className="fab fa-twitter"></i></Link>
+                            <Link className="btn btn-square rounded-circle me-2" go="/"><i className="fab fa-instagram"></i></Link>
                         </div>
                     </div>
                 </div>
@@ -461,7 +462,7 @@ function Home(){
                 <p className="fs-5 fw-bold text-primary">Testimonial</p>
                 <h1 className="display-5 mb-5">What Our Clients Say About Us!</h1>
                 <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit sed stet lorem sit clita duo justo.</p>
-                <a className="btn btn-primary py-3 px-4" href="/">See More</a>
+                <Link className="btn btn-primary py-3 px-4" go="/">See More</Link>
             </div>
             <div className="col-lg-7 wow fadeInUp" data-wow-delay="0.5s">
                 <div className="owl-carousel testimonial-carousel">
