@@ -18,20 +18,20 @@ function Header(){
                 <Link to="/" className="nav-item nav-link active">Home</Link>
                 <Link to="/about" className="nav-item nav-link">About</Link>
                 <Link to="/service" className="nav-item nav-link">Services</Link>
-                <Link to="project.html" className="nav-item nav-link">Projects</Link>
+                <Link to="/project" className="nav-item nav-link">Projects</Link>
                 <div className="nav-item dropdown">
                     <Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</Link>
                     <div className="dropdown-menu bg-light m-0">
-                        <Link to="feature.html" className="dropdown-item">Features</Link>
-                        <Link to="quote.html" className="dropdown-item">Free Quote</Link>
-                        <Link to="team.html" className="dropdown-item">Our Team</Link>
-                        <Link to="testimonial.html" className="dropdown-item">Testimonial</Link>
-                        <Link to="404.html" className="dropdown-item">404 Page</Link>
+                        <Link to="/feature" className="dropdown-item">Features</Link>
+                        <Link to="/quote" className="dropdown-item">Free Quote</Link>
+                        <Link to="/team" className="dropdown-item">Our Team</Link>
+                        <Link to="/testimonial" className="dropdown-item">Testimonial</Link>
+                        <Link to="*" className="dropdown-item">404 Page</Link>
                     </div>
                 </div>
-                <Link go="contact.html" className="nav-item nav-link">Contact</Link>
+                <Link go="/contact" className="nav-item nav-link">Contact</Link>
             </div>
-            <Link go="" className="btn btn-primary py-4 px-lg-4 rounded-0 d-none d-lg-block">Get A Quote<i className="fa fa-arrow-right ms-3"></i></Link>
+            <Link go="/contact" className="btn btn-primary py-4 px-lg-4 rounded-0 d-none d-lg-block">Get A Quote<i className="fa fa-arrow-right ms-3"></i></Link>
         </div>
     </nav>
 

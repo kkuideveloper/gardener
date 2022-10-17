@@ -11,7 +11,7 @@ import 'font-awesome/css/font-awesome.css';
 import "animate.css/animate.css";
 import BeforeHeader from './include/BeforeHeader';
 import Header from './include/Header';
-import Slider from './include/Slider';
+
 import Footer from './include/Footer';
 
 import TopRouting from './include/Routing/TopRouting';
@@ -25,7 +25,7 @@ root.render(
     <BrowserRouter>
       <BeforeHeader></BeforeHeader>
       <Header></Header>
-      <Slider></Slider>
+     
       <TopRouting></TopRouting>
       {/* <Outlet></Outlet> */}
       <Footer></Footer>
